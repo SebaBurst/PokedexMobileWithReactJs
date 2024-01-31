@@ -1,0 +1,552 @@
+{
+    "gym_leaders": {
+        "galar": {
+            "Bea": {
+                "nombre": "Judith",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/1/10/latest/20190709003046/Judith.png",
+                "type": "Lucha",
+                "description": "La Karateka prodigio de Galar",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-04/ch0250_00_saida_expose_256.ktx_.png"
+            },
+            "Allister": {
+                "nombre": "Allister",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/4/4c/latest/20190708202421/Alistair.png",
+                "type": "Fantasma",
+                "description": "Un chico parco en palabras",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-09/ch0251_00_onion_256.ktx_.png"
+            },
+            "Roy": {
+                "nombre": "Roy",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/archive/9/92/20220314202123%21Roy.png",
+                "type": "Dragon",
+                "description": "La furia de los dragones",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-04/ch0257_00_qibana_256.ktx_.png"
+            },
+            "Nessa": {
+                "nombre": "Nessa",
+                "artwork": "",
+                "type": "Agua",
+                "description": "La ola embravecida",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-04/ch0249_00_rulina_256.ktx_.png"
+            },
+            "Piers": {
+                "nombre": "Piers",
+                "artwork": "",
+                "type": "Siniestro",
+                "description": "El Cantante de las Auténticas Batallas",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-01/ch0256_00_nezz_256.ktx_.png"
+            },
+            "Bede": {
+                "nombre": "Bede",
+                "artwork": "",
+                "type": "Hada",
+                "description": "Un fantástico estilo que pone al público en pie",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2023-03/ch0246_90_beet_256.ktx_.png"
+            },
+            "Melony": {
+                "nombre": "Melony",
+                "artwork": "",
+                "type": "Hielo",
+                "description": "Una profesional de sangre fría",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2022-09/ch0255_00_melon_expose_256.ktx_.png"
+            },
+            "Gordie": {
+                "nombre": "Gordie",
+                "artwork": "",
+                "type": "Roca",
+                "description": "El Rompedruscos por antonomasia",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2022-09/ch0254_00_gordie_256.ktx_.png"
+            },
+            "Naboru": {
+                "nombre": "Naboru",
+                "artwork": "",
+                "type": "Fuego",
+                "description": "El veterano fervoroso del tipo fuego",
+                "vsIcon": "https://images.wikidexcdn.net/mwuploads/wikidex/5/53/latest/20200618035604/Cara_de_Naboru_EpEc.png"
+            }
+        },
+        "Alola": {
+            "Kiawe": {
+                "nombre": "Kiawe",
+                "type": "Fuego",
+                "description": "Más fuerte que los volcanes de Akala",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-06/ch0149_00_kaki_256_battle.ktx_.png"
+            },
+            "Rika": {
+                "nombre": "Rika",
+                "type": "Hada",
+                "description": "La artista que busca la inspiración perfecta",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2023-04/ch0034_10_matsurika_256.ktx_.png"
+            },
+            "Acerola": {
+                "nombre": "Acerola",
+                "type": "Fantasma",
+                "description": "La  Guía Turistica mas sobrenatural",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-09/ch0007_40_acerola_256.ktx_.png"
+            },
+            "Mallow": {
+                "nombre": "Mallow",
+                "type": "Planta",
+                "description": "Una Cocinera con infinitas posibilidades",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2023-01/ch0124_40_mao_256.ktx_.png"
+            },
+            "Lana": {
+                "nombre": "Lana",
+                "type": "Agua",
+                "description": "Una Imaginación tan grande como el mar",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-06/ch0160_00_suiren_256_battle.ktx_.png"
+            },
+            "Sophocles": {
+                "nombre": "Chris",
+                "type": "Electrico",
+                "description": "Aquel que electrifica el camino de la ciencia",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0036_00_mamane_256.ktx.png"
+            },
+            "Ilima": {
+                "nombre": "Ilima",
+                "type": "Normal",
+                "description": "El Capitán que saca a relucir a los aspirantes",
+                "vsIcon": "https://images.wikidexcdn.net/mwuploads/wikidex/9/9c/latest/20161119212636/VS_Liam_SL.png"
+            }
+        },
+        "Kalos": {
+            "Viola": {
+                "nombre": "Viola",
+                "type": "Bicho",
+                "artwork": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2023-01/ch0039_00_viola_expose_1024.ktx_.png",
+                "description": "La fotografa que no se le escapan las sonrisas",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0039_00_viola_256_battle.ktx.png"
+            },
+            "Grant": {
+                "nombre": "Grant",
+                "type": "Roca",
+                "artwork": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2023-01/ch0039_00_viola_expose_1024.ktx_.png",
+                "description": "El Escalador Indomable",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0053_00_zakuro_256.ktx.png"
+            },
+            "Korrina": {
+                "nombre": "Korrina",
+                "type": "Lucha",
+                "artwork": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0012_00_corni_1024.ktx_.png",
+                "description": "La Evoluchadora",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0012_00_corni_256.ktx_.png"
+            },
+            "Ramos": {
+                "nombre": "Ramos",
+                "type": "Planta",
+                "description": "Los viejos brotes siguen en flor",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0037_00_fukuji_256_battle.ktx.png"
+            },
+            "Clemont": {
+                "nombre": "Clemont",
+                "type": "Electrico",
+                "artwork": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-03/Clemont.png",
+                "description": "El inventor que arroja luz sobre el mundo",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-03/ch0131_00_citron_256.ktx_.png"
+            },
+            "Valerie": {
+                "nombre": "Valerie",
+                "type": "Hada",
+                "artwork": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-02/Valerie.png",
+                "description": "Aquella con más de un as en la manga",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-02/ch0157_00_mache_256.ktx_.png"
+            },
+            "Olympia": {
+                "nombre": "Olympia",
+                "type": "Psiquico",
+                "artwork": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-02/Valerie.png",
+                "description": "La que halla su camino en la luz de las estrellas",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2023-08/ch0175_00_gojika_256.ktx_.png"
+            },
+            "Wulfric": {
+                "nombre": "Wulfric",
+                "type": "Hielo",
+                "description": "El Glaciar que esconde un espiritu ardiente",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0022_00_urup_256.ktx.png"
+            }
+        },
+        "Unova": {
+            "Cilan": {
+                "nombre": "Cilan",
+                "type": "Planta",
+                "description": "El desafío Triangular: Planta",
+                "vsIcon": "https://images.wikidexcdn.net/mwuploads/wikidex/2/26/latest/20220329085446/VS_Millo_Masters.png"
+            },
+            "Cress": {
+                "nombre": "Cress",
+                "type": "Agua",
+                "description": "El desafío Triangular: Agua",
+                "vsIcon": "https://images.wikidexcdn.net/mwuploads/wikidex/a/a3/latest/20220329085522/VS_Ma%C3%ADz_Masters.png"
+            },
+            "Chili": {
+                "nombre": "Chili",
+                "type": "Fuego",
+                "description": "El desafío Triangular: Fuego",
+                "vsIcon": "https://images.wikidexcdn.net/mwuploads/wikidex/2/27/latest/20220329085548/VS_Zeo_Masters.png"
+            },
+            "Lenora": {
+                "nombre": "Lenora",
+                "type": "Normal",
+                "description": "Una madraza nata",
+                "vsIcon": "https://images.wikidexcdn.net/mwuploads/wikidex/a/a7/latest/20230927200028/VS_Aloe_Masters.png"
+            },
+            "Burgh": {
+                "nombre": "Burgh",
+                "type": "Bicho",
+                "description": "Sus insectos constituyen el décimo arte",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-03/ch0170_40_arty_256.ktx_.png"
+            },
+            "Elesa": {
+                "nombre": "Elesa",
+                "type": "Electrico",
+                "description": "Una Belleza Deslumbrante",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-12/ch0106_10_kamitsure_expose_256.ktx_.png"
+            },
+            "Clay": {
+                "nombre": "Clay",
+                "type": "Tierra",
+                "description": "Un as de los yacimientos subterráneos",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0033_00_yakon_256_battle.ktx.png"
+            },
+            "Skyla": {
+                "nombre": "Skyla",
+                "type": "Volador",
+                "description": "Chica de altos vuelos",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0016_00_huuro_256.ktx.png"
+            },
+            "Brycen": {
+                "nombre": "Brycen",
+                "type": "Hielo",
+                "description": "El enmascarado de hielo",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0040_00_hachiku_256_battle.ktx.png"
+            },
+            "Iris": {
+                "nombre": "Iris",
+                "type": "Dragon",
+                "description": "La joven que susurra a los dragones",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2022-09/ch0092_40_iris_256_battle.ktx__0.png"
+            },
+            "Cheren": {
+                "nombre": "Cheren",
+                "type": "Normal",
+                "description": "Aquel que Siempre busca la verdad",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0014_01_cheren_256_battle.ktx.png"
+            },
+            "Roxie": {
+                "nombre": "Roxie",
+                "type": "Veneno",
+                "description": "Aquella nociva dentro y fuera del escenario",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2023-11/ch0011_10_homika_256_battle.ktx_.png"
+            },
+            "Marlon": {
+                "nombre": "Marlon",
+                "type": "Agua",
+                "description": "¡Más salado que el mar!",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0052_00_shizui_256.ktx.png"
+            }
+        },
+        "Sinnoh": {
+            "Roark": {
+                "nombre": "Roark",
+                "type": "Roca",
+                "description": "La roca para los amigos",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0038_00_hyouta_256_battle.ktx.png"
+            },
+            "Gardenia": {
+                "nombre": "Gardenia",
+                "type": "Planta",
+                "description": "Maestra de Pokémon de tipo planta",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0027_00_natane_256.ktx.png"
+            },
+            "Maylene": {
+                "nombre": "Maylene",
+                "type": "Lucha",
+                "description": "La descalza experta en lucha",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0050_00_sumomo_256_battle.ktx.png"
+            },
+            "Wake": {
+                "nombre": "Wake",
+                "type": "Agua",
+                "description": "Maestro torrencial enmascarado",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0010_00_maximum_256_battle.ktx.png"
+            },
+            "Fantina": {
+                "nombre": "Fantina",
+                "type": "Fantasma",
+                "description": "Danzarina encantadora",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-02/ch0151_00_melissa_256.ktx_.png"
+            },
+            "Byron": {
+                "nombre": "Byron",
+                "type": "Acero",
+                "description": "El hombre del cuerpo de acero",
+                "vsIcon": "https://images.wikidexcdn.net/mwuploads/wikidex/9/90/latest/20211127222005/VS_Acer%C3%B3n_DBPR.png?20211127222005"
+            },
+            "Candice": {
+                "nombre": "Candice",
+                "type": "Hielo",
+                "description": "La chica diamante",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0025_00_suzuna_256.ktx.png"
+            },
+            "Volkner": {
+                "nombre": "Volkner",
+                "type": "Electrico",
+                "description": "La brillante estrella electrizante",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-09/ch0115_00_denji_expose_256.ktx_.png"
+            }
+        },
+        "Ocho": {
+            "Ash": {
+                "nombre": "Satoshi",
+                "type": "Electrico",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/9/9c/latest/20200724193425/Ash_%28Pocket_Monsters%29.png",
+                "description": "El Primer Campeón de Alola",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2022-08/ch0264_00_satoshi_256_battle.ktx_.png"
+            },
+            "Lionel": {
+                "nombre": "Lionel",
+                "type": "Fuego",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/e/eb/latest/20220215231058/Lionel_%28Viajes_Pok%C3%A9mon%29.png",
+                "description": "El Monarca Supremo",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-02/ch0247_00_dande_256_battle.ktx_.png"
+            },
+            "Cynthia": {
+                "nombre": "Cynthia",
+                "type": "Dragon",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/c/cb/latest/20220716143241/Cynthia_%28Viajes_Pok%C3%A9mon%29.png",
+                "description": "La Reina de Sinnoh",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-03/ch0091_00_shirona_expose_256.ktx_.png"
+            },
+            "Steven": {
+                "nombre": "Steven",
+                "type": "Acero",
+                "artwork": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2023-04/ch0090_00_daigo_expose_1024.ktx_.png",
+                "description": "El Heredero de Devon S.A",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-01/ch0090_00_daigo_256_battle.ktx_.png"
+            },
+            "Diantha": {
+                "nombre": "Diantha",
+                "type": "Hada",
+                "artwork": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2022-12/ch0158_10_carnet_01_expose_1024.ktx_.png",
+                "description": "La Actriz de la Megaevolución",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-02/ch0158_00_carnet_256.ktx_.png"
+            },
+            "Iris": {
+                "nombre": "Iris",
+                "type": "Fantasma",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d1/latest/20220915180432/Iris_%28Viajes_Pok%C3%A9mon%29_2.png",
+                "description": "La Aspirante a Maestra Dragón",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-02/ch0092_80_iris_256.ktx_.png"
+            },
+            "Lance": {
+                "nombre": "Lance",
+                "type": "Agua",
+                "artwork": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-01/ch0111_00_wataru_expose_1024.ktx_.png",
+                "description": "El Campeón de Johto y Kanto",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-12/ch0111_00_wataru_256.ktx_.png"
+            }
+        },
+        "Kanto": {
+            "Brock": {
+                "nombre": "Brock",
+                "type": "Roca",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/3/3b/latest/20180812021535/Brock_LGPE.png",
+                "description": "El hombre más fuerte que la roca",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0015_00_takeshi_256_battle.ktx.png"
+            },
+            "Misty": {
+                "nombre": "Misty",
+                "type": "Agua",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fd/latest/20180812024731/Misty_LGPE.png",
+                "description": "La sirena distorsionada",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0110_01_kasumi_256_battle.ktx.png"
+            },
+            "LT": {
+                "nombre": "Surge",
+                "type": "Electrico",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/1/1c/latest/20180913001903/Teniente_Surge_LGPE.png",
+                "description": "El Rayo Americano",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2023-03/ch0035_00_matthies_expose_256.ktx_.png"
+            },
+            "Erika": {
+                "nombre": "Erika",
+                "type": "Planta",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/1/1c/latest/20180912234902/Erika_LGPE.png",
+                "description": "¡La princesa amante de la naturaleza!",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2022-03/ch0008_00_erika_expose_256.ktx_.png"
+            },
+            "Koga": {
+                "nombre": "Koga",
+                "type": "Veneno",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/9/9e/latest/20201001063422/Koga_LGPE.png",
+                "description": "¡El Venenoso Maestro Ninja!",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0054_00_kyo_256.ktx.png"
+            },
+            "Janine": {
+                "nombre": "Janine",
+                "type": "Veneno",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c8/latest/20130708110816/Sachiko_en_HGSS.png",
+                "description": "¡La Venenosa Maestra Ninja!",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0060_00_anzu_256_battle.ktx.png"
+            },
+            "Sabrina": {
+                "nombre": "Sabrina",
+                "type": "Psiquico",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/a/a4/latest/20230714033825/Sabrina_LGPE.png",
+                "description": "¡La genio de los Pokemon Psiquicos!",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-02/ch0114_00_natsume_256_battle.ktx_.png"
+            },
+            "Blaine": {
+                "nombre": "Blaine",
+                "type": "Fuego",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c5/latest/20181108184440/Blaine_LGPE.png",
+                "description": "¡El Maestro de los Acertijos!",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0059_00_katsura_256_battle.ktx.png"
+            },
+            "Blue": {
+                "nombre": "Gary ",
+                "type": "Volador",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/9/9b/latest/20230923194222/Azul_LGPE.png",
+                "description": "Aquel que se compara a 'esa' leyenda",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2023-11/ch0021_90_green_256_battle.ktx_.png"
+            }
+        },
+        "Johto": {
+            "Falkner": {
+                "nombre": "Falkner",
+                "type": "Volador",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fd/latest/20200923025730/Pegaso_en_HGSS.png",
+                "description": "El gran experto en Pokémon voladores",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2021-07/ch0150_00_hayato_256_battle.ktx_.png"
+            },
+            "Bugsy": {
+                "nombre": "Bugsy",
+                "type": "Bicho",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/5/51/latest/20200923024946/Antón_en_HGSS.png",
+                "description": "Sabelotodo de los Pokémon bicho",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0045_00_tsukushi_256.ktx.png"
+            }
+            ,
+            "Whitney": {
+                "nombre": "Whitney",
+                "type": "Normal",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/8/87/latest/20200923030056/Blanca_en_HGSS.png",
+                "description": "¡La belleza explosiva!",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0026_00_akane_256_battle.ktx.png"
+            }
+            ,
+            "Morty": {
+                "nombre": "Morty",
+                "type": "Fantasma",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/4/4d/latest/20200923030425/Morti_en_HGSS.png",
+                "description": "El místico adivino del futuro",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-06/ch0148_00_matsuba_256.ktx_.png"
+            }
+            ,
+            "Chuck": {
+                "nombre": "Chuck",
+                "type": "Lucha",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/5/5f/latest/20200923023843/Aníbal_en_HGSS.png",
+                "description": "Sus puños hablan por él",
+                "vsIcon": "https://images.wikidexcdn.net/mwuploads/wikidex/a/ac/latest/20220628154118/VS_Aníbal_Masters.png"
+            }
+            ,
+            "Jasmine": {
+                "nombre": "Jasmine",
+                "type": "Acero",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/c/c8/latest/20200923030947/Yasmina_en_HGSS.png",
+                "description": "La chica de acero",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-04/ch0113_00_mikan_256.ktx__1.png"
+            }
+            ,
+            "Pryce": {
+                "nombre": "Pryce",
+                "type": "Hielo",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/b/b5/latest/20200923031530/Fredo_en_HGSS.png",
+                "description": "El maestro del crudo invierno",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0032_00_yanagi_256_battle.ktx.png"
+            }
+            ,
+            "Clair": {
+                "nombre": "Clair",
+                "type": "Dragon",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/5/53/latest/20200923023600/Débora_en_HGSS.png",
+                "description": "La gran experta en Pokémon dragón",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0028_00_ibuki_256.ktx.png"
+            }
+        },
+        "Hoenn": {
+            "Roxanne": {
+                "nombre": "Roxanne",
+                "type": "Roca",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d6/latest/20140714144756/Petra_ROZA.png",
+                "description": "¡La experta en Pokémon de tipo roca!",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0044_00_tsutsuji_256.ktx.png"
+            },
+            "Brawly": {
+                "nombre": "Brawly",
+                "type": "Lucha",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/5/54/latest/20140714160131/Marcial_ROZA.png",
+                "description": "¡Soy como un maremoto!",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0043_00_toki_256_battle.ktx.png"
+            }
+
+            ,
+            "Wattson": {
+                "nombre": "Wattson",
+                "type": "Electrico",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fd/latest/20140714155637/Erico_ROZA.png",
+                "description": "¡¡Una personalidad electrificante!!",
+                "vsIcon": "https://images.wikidexcdn.net/mwuploads/wikidex/a/af/latest/20140716144846/VS_Erico_ROZA.png"
+            }
+            ,
+            "Flannery": {
+                "nombre": "Flannery",
+                "type": "Fuego",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/7/70/latest/20140714145234/Candela_ROZA.png",
+                "description": "¡No te acerques mucho, que quemo!",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0029_00_asuna_256.ktx.png"
+            }
+            ,
+            "Norman": {
+                "nombre": "Norman",
+                "type": "Normal",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/5/5c/latest/20140714163725/Norman_ROZA.png",
+                "description": "Un hombre con ambición",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0009_00_senri_256_battle.ktx.png"
+            }
+            ,
+            "Winona": {
+                "nombre": "Winona",
+                "type": "Volador",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e9/latest/20150111171130/Alana_ROZA.png",
+                "description": "La jefa de las alturas en Hoenn",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0042_00_nagi_256_battle.ktx.png"
+            }
+            ,
+            "Tate": {
+                "nombre": "Tate",
+                "type": "Psiquico",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d5/latest/20230714034624/Vito_y_Leti_ROZA.png",
+                "description": "¡Una combinación mística!",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2019-08/ch0031_00_fuu_256_battle.ktx.png"
+            }
+            ,
+            "Liza": {
+                "nombre": "Liza",
+                "type": "Psiquico",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/d/d5/latest/20230714034624/Vito_y_Leti_ROZA.png",
+                "description": "¡Una combinación mística!",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2023-07/ch0030_40_ran_256_battle.ktx_.png"
+            }
+            ,
+            "Wallace": {
+                "nombre": "Wallace",
+                "type": "Agua",
+                "artwork": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fa/latest/20141113173729/Plubio_ROZA.png",
+                "description": "Artista y amante del agua",
+                "vsIcon": "https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/2020-04/ch0127_00_mikuri_256_battle.ktx_.png"
+            }
+        }
+    }
+}

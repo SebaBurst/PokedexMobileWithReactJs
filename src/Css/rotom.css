@@ -1,0 +1,634 @@
+.rotombg {
+    background-color: #e84a44;
+    width: 100%;
+    height: 105vh;
+}
+
+.eyes {
+    width: 100%;
+}
+
+.poke-search {
+    width: 25%;
+    bottom: -18%;
+    position: relative;
+    left: 18%;
+}
+
+
+.input-search {
+    width: 45%;
+    border: 1px solid transparent;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-radius: 20px;
+}
+
+.input-search:focus {
+    border: 1px solid #e84a44;
+    outline: none;
+}
+
+.buttonSearch {
+    padding: 15px;
+    width: 15%;
+    border-top-right-radius: 20px;
+    border: 1px solid transparent;
+
+    border-bottom-right-radius: 20px;
+
+}
+
+.background-info {
+    width: 65%;
+    background-image: url('../Assets/rotom-bg.jpg');
+    background-size: cover;
+    background-color: #ffffff;
+    height: 70vh;
+    border: 2px solid #2c2c2c00;
+    margin-left: 16%;
+    border-radius: 15px;
+    margin-top: -6%;
+}
+
+.eyes img {
+    width: 35%;
+    margin-left: 31%;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.pokemon-artwork {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* Establece un contexto de posicionamiento relativo para los elementos internos */
+}
+
+.pokemon-artwork img.background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ajusta la imagen de fondo para cubrir todo el contenedor */
+}
+
+.pokemon-artwork img {
+    user-select: none;
+    position: absolute;
+    /* Posiciona la imagen de superposición en relación con el contenedor padre */
+    top: 50%;
+    /* Coloca la parte superior de la imagen de superposición en el centro vertical */
+    left: 50%;
+    /* Coloca la parte izquierda de la imagen de superposición en el centro horizontal */
+    transform: translate(-50%, -50%);
+    /* Centra la imagen de superposición completamente */
+}
+
+.background-list {
+    margin-left: 4%;
+    width: 94%;
+    grid-gap: 16px;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.contenedor {
+    position: relative;
+    width: 150px;
+    /* Ajusta el ancho del círculo según tus necesidades */
+    height: 150px;
+    /* Ajusta el alto del círculo según tus necesidades */
+    border-radius: 50%;
+    /* Esto crea un fondo circular */
+    background-color: #007bc8c4;
+    /* Cambia este color al azul que desees */
+}
+
+.contenedor img {
+    width: 110%;
+    /* Ajusta el tamaño de la imagen según tus necesidades (por ejemplo, 120%) */
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+    top: 0%;
+    /* Ajusta la posición vertical de la imagen para centrarla */
+    left: -10%;
+    /* Ajusta la posición horizontal de la imagen para centrarla */
+}
+
+
+.contenedor img:hover {
+    transform: scale(1.1);
+    /* Hace que la imagen se agrande al 120% de su tamaño original al pasar el mouse sobre ella */
+}
+
+.background-list img {}
+
+.scrollActivity {
+    cursor: pointer;
+
+    margin-top: 13.5%;
+    height: 75%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+/* Estilos para navegadores Webkit (Chrome, Safari) */
+.scrollActivity::-webkit-scrollbar {
+    cursor: pointer;
+    width: 22px;
+    /* Ancho de la barra de desplazamiento */
+}
+
+.scrollActivity::-webkit-scrollbar-track {
+    cursor: pointer;
+
+    background-color: transparent;
+    /* Color del fondo de la barra de desplazamiento */
+}
+
+.scrollActivity::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background-color: #e84a44;
+    /* Color del "pulgarcito" de la barra de desplazamiento */
+    border-radius: 2px;
+    /* Bordes redondeados del "pulgarcito" */
+}
+
+
+
+
+
+
+.filter-buttons {
+    margin-top: 5%;
+    position: absolute;
+    height: 8%;
+    width: 66%;
+    margin-left: 20%;
+}
+
+.filter-buttons button {
+    cursor: pointer;
+    margin-left: 10px;
+    color: white;
+    margin-right: 5px;
+    font-weight: 900;
+    padding: 12px;
+    background-color: #007bc8d4;
+    border-radius: 14px;
+    border: 1px solid #007bc8;
+    font-family: roboto;
+    font-size: 20px;
+}
+
+.filter-buttons button.active {
+    border: 1px solid #e84944b0;
+
+    background-color: #e84944c6;
+    /* Color de fondo cuando el botón está activo */
+    color: #fff;
+    /* Cambia el color del texto cuando el botón está activo */
+}
+
+.filter-buttons button:hover {
+    border: 1px solid #e84944b0;
+
+    background-color: #e84944c6;
+    /* Color de fondo cuando el botón está activo */
+    color: #fff;
+    /* Cambia el color del texto cuando el botón está activo */
+}
+
+
+
+
+
+.button-region {
+    cursor: pointer;
+    margin-left: 10px;
+    color: white;
+    margin-right: 5px;
+    font-weight: 900;
+    padding: 12px;
+    background-color: #007bc8d4;
+    border-radius: 14px;
+    border: 1px solid #007bc8;
+    font-family: roboto;
+    font-size: 20px;
+}
+
+.regiones {
+    margin-top: 5%;
+    position: absolute;
+    height: 8%;
+    width: 66%;
+    margin-left: 20%;
+}
+
+.poke-data {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -100%;
+    margin: 10px;
+    font-size: 12px;
+    width: 28%;
+    background-color: #e84a44;
+    border-radius: 30px;
+}
+
+.number-poke {
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.number-poke h1 {
+    margin-left: 9px;
+    color: #e84a44;
+    font-family: Roboto;
+    font-weight: 900;
+    user-select: none;
+
+}
+
+.poke-name h1 {
+    user-select: none;
+    margin-left: 19px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 900;
+}
+
+.poke-types {
+    width: 100%;
+    position: relative;
+    display: flex;
+    top: -100%;
+    margin-left: 19px;
+    align-items: center;
+}
+
+.poke-types img {
+    width: 5%;
+    margin-right: 10px;
+    user-select: none;
+
+}
+
+.rotom-gif img {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .rotom-gif img {
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 40%;
+        width: 100%;
+    }
+
+    .background-info {
+        width: 95%;
+        background-image: url('../Assets/rotom-bg.jpg');
+        background-size: cover;
+        background-color: #ffffff;
+        height: 83vh;
+        border: 2px solid #2c2c2c00;
+        margin-left: 2%;
+        border-radius: 15px;
+        margin-top: -14%;
+    }
+
+
+
+    .background-list {
+        margin-left: 3%;
+        width: 97%;
+        grid-gap: 16px;
+        height: 71vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .scrollActivity {
+        cursor: pointer;
+        margin-top: 36%;
+        height: 81%;
+        width: 100%;
+        overflow-y: auto;
+    }
+
+    .rotombg {
+        background-color: #e84a44;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .filter-buttons button {
+        cursor: pointer;
+        margin-left: 5px;
+        color: white;
+        margin-right: 5px;
+        font-weight: 900;
+        padding: 8px;
+        background-color: #007bc8d4;
+        border-radius: 14px;
+        border: 1px solid #007bc8;
+        font-family: roboto;
+        font-size: 16px;
+    }
+
+    .filter-buttons {
+        margin-top: 12%;
+        position: absolute;
+        height: 3%;
+        grid-gap: 2px;
+        grid-template-columns: repeat(5, 1fr);
+        width: 49%;
+        display: grid;
+        margin-left: 3%;
+    }
+
+    .contenedor {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #007bc8c4;
+    }
+
+    .eyes img {
+        margin-top: -15%;
+        width: 80%;
+        margin-left: 11%;
+        position: relative;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    .scrollActivity::-webkit-scrollbar-thumb {
+        cursor: pointer;
+        background-color: transparent;
+        /* Color del "pulgarcito" de la barra de desplazamiento */
+        border-radius: 2px;
+        /* Bordes redondeados del "pulgarcito" */
+    }
+
+
+    .pokemon-artwork img {
+        -webkit-user-select: none;
+        user-select: none;
+        position: absolute;
+        top: 50%;
+        width: 87%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .poke-types img {
+        width: 20%;
+        margin-right: 10px;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+
+
+
+
+    .poke-data {
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: -18%;
+        margin: 10px;
+        font-size: 12px;
+        width: 94%;
+        background-color: #e84a44;
+        border-radius: 30px;
+    }
+
+    .input-search {
+        width: 45%;
+        border: 1px solid transparent;
+        padding: 15px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        border-radius: 20px;
+        color: transparent;
+        background-color: transparent;
+    }
+
+    .poke-search {
+        width: 34%;
+        z-index: 99;
+        bottom: -5%;
+        position: relative;
+        left: 43%;
+    }
+
+    .poke-types {
+        width: 90%;
+        position: relative;
+        display: flex;
+        top: -100%;
+        margin-left: 19px;
+        align-items: center;
+    }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    /**New css for navigation*/
+
+
+    .navigation
+    {
+        width: 100%;
+        height: 70px;
+        background-color: #EEEEEE;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+
+    .poke-item img{
+        width: 100%;
+
+    }
+    .navigation ul
+    {
+        display: flex;
+        margin: 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    .navigation ul li
+    {
+        position: relative;
+        list-style: none;
+        width: 70px;
+        height: 70px;
+        z-index: 1;
+    }
+    .navigation ul li a
+    {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+    }
+    .navigation ul li a .icon
+    {
+        position: relative;
+        display: block;
+        line-height: 75px;
+        font-size: 1.5rem;
+        text-align: center;
+        transition: 0.5s;
+        color: var(--clr);
+    }
+    .navigation ul li.active a .icon
+    {
+        transform: translateY(-32px);
+    }
+    .navigation ul li a .text
+    {
+        position: absolute;
+        color: #292929;
+        font-weight: 400;
+        font-size: 0.75em;
+        letter-spacing: 0.05em;
+        transition: 0.5s;
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    .navigation ul li.active a .text
+    {
+        transform: translateY(10px);
+        opacity: 1;
+    }
+
+
+    .home-cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 94%;
+        margin-left: 2%;
+    }
+    .indicator
+    {
+        position: absolute;
+        top: -50%;
+        width: 70px;
+        height: 70px;
+        background: #ec5e285c;
+        border-radius: 50%;
+        border: 6px solid var(--clr);
+        transition: 0.5s;
+    }
+    .indicator::before
+    {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -22px;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        border-top-right-radius: 20px;
+        box-shadow: 1px -10px 0 0 var(--clr);
+    }
+    .indicator::after
+    {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: -22px;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        border-top-left-radius: 20px;
+        box-shadow: -1px -10px 0 0 var(--clr);
+    }
+    .navigation ul li:nth-child(1).active ~ .indicator
+    {
+        transform: translateX(calc(70px * 0));
+    }
+    .navigation ul li:nth-child(2).active ~ .indicator
+    {
+        transform: translateX(calc(70px * 1));
+    }
+    .navigation ul li:nth-child(3).active ~ .indicator
+    {
+        transform: translateX(calc(70px * 2));
+    }
+    .navigation ul li:nth-child(4).active ~ .indicator
+    {
+        transform: translateX(calc(70px * 3));
+    }
+    .navigation ul li:nth-child(5).active ~ .indicator
+    {
+        transform: translateX(calc(70px * 4));
+    }
+
+
+    .content {
+        padding-bottom: 150px;
+        /* Espacio para el botón al final */
+    }
+
+    .bottomNavigation {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        width: 100%;
+        background-color: #EEEEEE;
+        padding: 10px 0;
+        text-align: center;
+
+
+
+    }
+
+    .buttonNav {
+        width: 95%;
+        height: 100%;
+        margin: 4px;
+    }
+
+
+    .buttonNav img {
+        width: 30%;
+        max-width: 100%;
+    }
+
+    .buttonNav:hover {
+        background-color: #FF735A;
+        border-radius: 20px;
+
+    }
+}

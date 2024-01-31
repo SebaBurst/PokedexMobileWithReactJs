@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    .bannerBg{
+        background-color: #ffffff;
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+    }
+
+    .bannerGhost{
+        background-color: #ffffff;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .pokeball_icon{
+        width: 20%;
+    }
+
+    .pokeball_icon img{
+        margin-left: 25px;
+        width: 50%;
+    }
+
+    .poke-bar{
+        width: 88%;
+    }
+
+    .input-pokesearch{
+        width: 88%;
+        height: 20px;
+        padding: 10px;
+        border-radius: 15px;
+        border: 1px solid rgb(249, 99, 99);
+    }
+}
+

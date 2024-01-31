@@ -1,0 +1,82 @@
+@media (max-width: 768px) {
+    .pokemonList {
+        margin: 6px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 11px;
+        width: 97%;
+    }
+
+    .poke_regions2{
+        margin: 6px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 11px;
+        width: 97%;
+    }
+
+    .poke_regions{
+        margin: 6px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 11px;
+        width: 97%;
+    }
+
+    .regionCard{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
+    }
+
+    .regionCard.active {
+        opacity: 1; /* Mostrar elementos con opacidad completa */
+      }
+
+
+
+      .pokeItem{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        opacity: 0; /* Elementos inicialmente ocultos */
+        transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
+    }
+
+    .pokeItem.active {
+        opacity: 1; /* Mostrar elementos con opacidad completa */
+      }
+    .regionCard img{
+        width: 100%;
+        
+        border-radius: 20px;
+    }
+
+
+    .update-rotom {
+        margin: 6px;
+        width: 97%;
+        height: 100%;
+    }
+
+
+    .update-rotom  img{
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .update-rotom p{
+        font-size: 30px;
+        color: rgb(126, 31, 31);
+        width: 100%;
+        font-weight: 700;
+        font-family: 'Roboto';
+        text-align: center;
+    }
+
+}

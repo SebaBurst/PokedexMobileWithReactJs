@@ -1,0 +1,164 @@
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+}
+
+
+*{
+    user-select: none;
+}
+
+
+.poke-evo{
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.poke-evo p{
+    margin:0;
+    font-weight: 600;
+}
+.pokemonArt {
+    width: 90%;
+}
+
+.pokemonArt img {
+    width: 80%;
+    margin-left: 50px;
+}
+
+
+.evolutions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.button-next{
+    background-color: #3737373d;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-next img{
+    width: 30%;
+}
+
+.button-next:hover{
+    background-color: #0f0f0f2a;
+}
+.pokemon-information{
+    background-image: url('../Assets/pokeball.png');
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 100%;
+
+}
+
+.number-poke1{
+    margin-left: 10px;
+    text-align: start;
+    padding: 10px;
+}
+
+
+.pokemon-name{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.pokemon-details{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.poke-name_inside h1 {
+    color: #fff;
+    margin-left: 19px;
+}
+.number-poke {
+    background-color: #fff;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 10px;
+}
+
+.number-poke h1 {
+    color: #e84a44;
+    margin-left: 9px;
+}
+
+
+.types{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+
+
+.moveDex{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.poke-name{
+    align-items: center;
+    background-color: #e84a44;
+    border-radius: 30px;
+    display: flex;
+    font-size: 12px;
+    margin: 10px;
+    position: relative;
+    top: -18%;
+    width: 94%;
+}
+.pokeEntry {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 100%;
+    background-color: #F0B27A;
+  
+}
+.button-next p{
+    font-weight: 700;
+}
+
+.pokeStats{
+    margin-left: 6%;
+    width: 90%;
+}
+
+.pokemonDes {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.pokemonDes p{
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.dexVoice {
+    margin-left: 5%;
+    width: 90%;
+}
+
+.dexVoice img {
+    width: 27%;
+}
+.dexVoice button{
+    background-color: #ec7c28;
+    border: 1px solid #ec7c28;
+    border-radius: 15px;
+    
+}

@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+}
+
+
+
+
+@media (max-width: 768px) {
+    .gymList {
+        margin: 6px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 11px;
+        z-index: 1;
+        width: 98%;
+    }
+
+    .gymCardBg {
+        cursor: pointer;
+        border-radius: 15px;
+        height: 140px;
+        display: flex;
+        width: 98%;
+        background-color: #F0B27A;
+        overflow-y: hidden;
+    }
+
+    .image-container-gym {
+        margin-top: 0px;
+        width: 47%;
+        margin-left: -15px;
+        height: 140px;
+        background-image: url(https://images.wikidexcdn.net/mwuploads/wikidex/archive/7/72/20130809192341%21Corelia.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .gym-info {
+        margin-left: 48px;
+        margin-top: -16px;
+        width: 40%;
+        height: 100%;
+    }
+
+    .gym-info h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .container-gym {
+        background-color: white;
+        width: 84%;
+        margin-top: 30%;
+        height: 70%;
+        border-radius: 20px;
+        margin-left: 8%;
+    }
+
+    .container-gym h1 {
+        font-size: 38px;
+        font-weight: 800;
+        text-align: center;
+
+    }
+
+    .container-gym p {
+        font-family: Roboto;
+        padding: 15px;
+        text-align: center;
+        color: #535151e8;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .arTrainer img {
+        margin-top: 20%;
+        height: 95%;
+    }
+
+    .arTrainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+    }
+
+    .bgArt {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(41, 41, 41, 0.577);
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .gym-info p {
+        font-family: Roboto;
+        width: 100%;
+        margin-top: -20px;
+        color: #00000091;
+        text-align: center;
+        font-weight: 700;
+        text-align: center;
+        font-style: italic;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .gym-info img {
+        margin-left: 37px;
+    }
+
+
+
+}
